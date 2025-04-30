@@ -1,0 +1,179 @@
+ FULL DETAILED PROMPT FOR REPLIT AI (UPDATED VERSION FOR VS CODE + PHP BACKEND ONLY FOR APPOINTMENT)
+I want you to help me create a fully responsive and professional website using HTML, CSS, and minimal PHP (only for backend form submission). This website is for a UPS (Uninterruptible Power Supply) manufacturing company named Static Power Systems.
+
+ VERY IMPORTANT:
+
+This website is NOT for Replit, and I want all the code to be structured and written so that it works locally in Visual Studio Code (VS Code).
+
+Do not use any Replit-specific logic, frameworks, or hosted features.
+
+Do not use JavaScript or frameworks like React, Vue, Angular.
+
+Do not use Tailwind, Bootstrap, or any CSS libraries.
+
+This is a mostly static HTML/CSS website, with just one backend feature:
+
+ I want a simple appointment booking form in the Contact section that sends an email to us using PHP.
+The form should include:
+
+Full Name
+
+Email Address
+
+Phone Number
+
+City
+
+Preferred Appointment Date
+
+Message box
+
+ I am not selling any products online, so I do not need:
+
+Shopping cart
+
+Payment gateway
+
+Login/signup
+
+Databases
+
+Just show that we have the product and allow customers to book an appointment via email.
+
+ WEBSITE STRUCTURE
+Header:
+
+Logo or placeholder
+
+Company Name: STATIC POWER SYSTEMS
+
+Tagline: XP Series Online UPS (3kVA to 120kVA)
+
+Navigation bar with links to all major sections (Home, About, Features, Applications, Specs, Services, Contact)
+
+ CONTENT SECTIONS TO INCLUDE
+Homepage (Hero Section)
+
+Background image or placeholder (/images/ups.jpg)
+
+Tagline: “Reliable Power. Assured Protection.”
+
+Short paragraph about your brand’s reliability.
+
+About Us
+
+Brief about Static Power Systems as a trusted manufacturer of Online UPS for:
+
+Industrial Loads
+
+Medical Equipments
+
+IT / ITES
+
+Other Critical Loads
+
+Features
+
+List the following features using neat bullet points or icon cards:
+
+16 Bit DSP Control
+
+Inbuilt Isolation Transformer
+
+Inbuilt Static Switch
+
+Inbuilt Manual Bypass Switch
+
+100% Unbalanced Load Support
+
+Output Voltage Regulation <1%
+
+Rectifier Current Limit Function
+
+Applications
+
+Showcase industries where your UPS systems are used.
+
+Technical Specifications
+
+Add a scrollable and responsive table showing comparison of:
+
+XP11 (3kVA to 10kVA)
+
+XP31 (10kVA to 20kVA)
+
+XP33 (10kVA to 120kVA)
+
+Include input/output voltage, frequency, power factor, protections, display, overload, waveform, THD, battery type, etc.
+
+Optional Features
+
+Bullet list of optional features:
+
+Potential Free Contacts
+
+Remote Monitoring
+
+SNMP
+
+Phase Reversal Protection
+
+Service Centers
+
+Show a grid layout with cities:
+
+Chennai, Vellore, Trichy, Madurai, Coimbatore, Erode, Salem, Tirunelveli
+
+Contact Us (With PHP Backend Appointment Form)
+
+Contact info:
+
+Phone: +91 9789033353 / +91 9384197619
+
+Email: jaganappu1976@gmail.com
+
+Address: Plot No:2, Ground Floor, Jeevaaratna Complex, Addison Nagar, Mangadu, Tamil Nadu - 600122
+
+Appointment Booking Form:
+
+Action should point to a PHP file (appointment.php)
+
+When submitted, it should send the form content to a predefined email ID using mail() function in PHP
+
+After submission, show a simple success or error message on the same page or redirect to a thank you page
+
+ DESIGN & STYLE REQUIREMENTS
+Use HTML5 + CSS3 only (separate files: index.html, style.css)
+
+Use blue, white, dark gray color scheme
+
+Make the design professional, modern, and mobile-friendly
+
+Layout with Flexbox or Grid
+
+CSS only: smooth scrolling, hover effects, animations
+
+Font: Use Google Fonts like Roboto or Open Sans (ensure it works offline in VS Code or provide <link> in head)
+
+All images should be placed in a local images folder
+
+ FOLDER STRUCTURE
+plaintext
+Copy
+Edit
+/static-power-website/
+├── index.html
+├── style.css
+├── appointment.php
+├── /images/
+└── /css/
+ SUMMARY
+No online sales
+
+No login, database, or JS
+
+Backend (PHP) only for one contact form
+
+Everything else is static
+
+Designed for local use in VS Code
